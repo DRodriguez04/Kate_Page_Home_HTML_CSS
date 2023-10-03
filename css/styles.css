@@ -195,3 +195,14 @@ contenido-hero .ubicacion{
     margin-bottom: 2rem;
     color: var(--primario);
 }
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
