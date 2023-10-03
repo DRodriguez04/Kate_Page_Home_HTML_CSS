@@ -31,19 +31,25 @@ body{
     background-color: var(--secundario);
     color: var(--blanco);
     padding: 1rem 3rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: .5rem;
+    width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-width: 768px) { 
     .boton{
         width: auto;
     }
+}
+
+.boton:hover{
+    cursor: pointer;
 }
 
 .sombra{
@@ -75,6 +81,24 @@ h1, h2, h3{
 /* titulos */
 .titulo span{
     font-size: 2rem;
+}
+
+/* utilidades */
+.w-sm-100{
+    width: 100%;
+}
+@media (min-width: 768px) { 
+    .w-sm-100{
+        width: auto;
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear-derecha{
+    justify-content: flex-end;
 }
 
 /* navegacion principal */
@@ -205,4 +229,15 @@ contenido-hero .ubicacion{
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.enviar .boton{
+    width: 100%;
 }
